@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato";
+}
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    color: #f06c64;
+}
+header {
+    width: 1020px;
+    height: 95px;
+    background-color: #2d303a;
+    display: flex;
+}
+.logo {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 29px;
+    margin-left: 40px;
+    text-align: left;
+}
+.top_nav{
+    margin-top: 46px;
+    margin-left: 453px;
+    display: flex;
+    font-size: 12px;
+line-height: 6px;   
+color: #f06c64;
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
+}
+.top_nav a{
+    margin-right: 30px;
+}
+.top_nav a:hover {
+    color: #f06c64;
+}
+.slider {
+    display: flex;
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+}
+#arrow_left {
+    padding: 281px 0px 292px 42px;
+}
+#arrow_right {
+    padding-top: 283px;
+    padding-right: 40px;
+    padding-bottom: 293px;
+}
+#iphone_vertical {
+    padding-top: 53px;
+    padding-left: 54px;
+    padding-bottom: 64px;
+}
+#iphone_horizontal {
+    padding: 175px 57px 188px 73px; 
+}
+.services {
+    width: 1020px;
+    height: 500px;
+    background-color: #f2f2f2;
+}
+.container {
+    width: 940px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 42px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 67px;
+    padding-left: 40px;
+}
+#service_summary {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 52px;
+}
+.fetures {
+    display: flex;
+}
+
+.feature_item{
+    width: 33.33%;
+    margin: 0px 20px 39px 0px;
+}
