@@ -97,11 +97,11 @@ h2 {
     text-align: left;
     padding-bottom: 52px;
 }
-.fetures {
+.features {
+    width: 940px;
     display: flex;
 }
 
 .feature_item{
-    width: 33.33%;
     margin: 0px 20px 39px 0px;
 }
