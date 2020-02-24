@@ -7,6 +7,7 @@ body{
 }
 a {
     text-decoration: none;
+    color: #a3a3a6;
 
 }
 a:hover {
@@ -67,14 +68,8 @@ text-align: left;
 }
 .services {
     width: 1020px;
-    height: 500px;
     background-color: #f2f2f2;
-}
-.container {
-    width: 940px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 42px;
+    height: 500px;
 }
 h2 {
     font-size: 30px;
@@ -83,25 +78,51 @@ h2 {
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
+}
+.service_content {
+    width: 940px;
     padding-top: 67px;
     padding-left: 40px;
+    padding-bottom: 51px;
 }
-#service_summary {
+.service_summary {
     width: 940px;
-    height: 57px;
+    height: 40px;
+    padding-top: 30px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 300;
-    text-align: left;
-    padding-bottom: 52px;
+    text-align: left;   
 }
-.features {
+.service_items {
     width: 940px;
-    display: flex;
-}
+    padding: 13px 35px 61px 40px;
+    display: grid;
+    grid-template-columns: 60px 220px 60px 220px 60px 220px; 
+    grid-template-rows: 85px 85px;
+    grid-column-gap: 20px;
+    grid-row-gap: 35px;
+    justify-self: start;
 
-.feature_item{
-    margin: 0px 20px 39px 0px;
+
+}
+.feature_title{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.feature_text {
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
 }
