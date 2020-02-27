@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+}
+.main{
+    width: 1020px;
+    margin: auto;
+}
+.portfolio {
+    background-color: #2d303a;
+    padding-top: 67px;
+    padding-bottom: 73px;
+    padding: 40px;
+}
+.portfolio_heading {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-bottom: 33px;
+}
+.hero-text {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+.portfolio-nav {
+    margin-bottom: 20px;
+    display: flex
+}
+button {
+    margin-right: 10px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+button:hover{
+    cursor: pointer;
+    border-color: #c5c5c5;
+    color: #c5c5c5;
+    transition: linear 1s;
+} 
+
+.gallery {
+    width: 940px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-column-gap: 20px;
+}
+.bottom_line {
+    margin-top: 0px;
+}
