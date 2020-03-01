@@ -32,11 +32,11 @@ header {
     margin-left: 453px;
     display: flex;
     font-size: 12px;
-line-height: 6px;   
-color: #f06c64;
-font-family: "Lato";
-font-weight: 700;
-text-align: left;
+    line-height: 6px;   
+    color: #f06c64;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
 }
 .top_nav a{
     margin-right: 30px;
