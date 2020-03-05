@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+}
+.main {
+    background-color: #f06c64;
+    width: 1020px;
+    height: auto;
+    padding-top: 66px;
+    padding-left: 40px;
+}
+#Quote {
+    font-size: 30px;
+line-height: 18px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
+.hero_text {
+    width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+padding-bottom: 47px;
+}
+form {
+    width: 620px;
+    display: grid;
+    grid-template-rows: 38px 38px 38px 202px;
+    grid-row-gap: 16px;
+    font-size: 12px;
+    font-size: 12px;
+line-height: 22px;
+color: #f48c8f;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+    
+
+}
+input {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    line-height: 22px;
+    color: #ec7e7e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+
+}
+textarea {
+    background-color: #d6564f;
+    border: 0px;
+    border-radius: 5px;
+    color: #f48c8f;
+    padding-left: 15px;
+}
+h5 {
+        font-size: 18px;
+line-height: 18px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
+#p_contacts {
+    width: 300px;
+height: 175px;
+font-size: 12px;
+line-height: 22px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+}
+ul {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    list-style: image('assets\location.png');
+}
+li#address{
+    list-style-image:assets\location.png;
+}
+#phone_number {
+    list-style-image: assets\phone.svg;
+}
+#email {
+    list-style-image: image(assets\mail.svg);
+}
+footer {
+    margin: 0;
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+}
