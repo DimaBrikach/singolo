@@ -1,0 +1,1 @@
+https://dimabrikach.github.io/singolo/
