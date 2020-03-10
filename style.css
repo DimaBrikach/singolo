@@ -32,7 +32,7 @@
 }
 
 .nav-bar a{
-    font-family: 'LatoWeb', Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-left: 26px;
     bottom: -1px;
     color: #fff;
@@ -41,7 +41,7 @@
     text-decoration: none;
     font-size: 12px;
     line-height: 8px;
-    font-weight: normal;
+    font-weight: 700;
     letter-spacing: -0.007em;
 
 }
@@ -60,7 +60,8 @@
 }
 
 .nav-bar a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #f06c64;
 }
 
 .nav-bar .checked:hover {
@@ -77,19 +78,19 @@
 
 .nav-bar .checked {
     color: #f06c64;
-    cursor: default;
+    cursor: pointer;
 }
 
 .logo {
     position: relative;
-    font-family: 'LatoWebMedium', Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-left: 39px;
     color:#ffffff;
     text-transform: uppercase; 
     font-size: 25px;
     line-height: 8px;
     padding-bottom: 1px;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: -0.015em;
 }
 
@@ -446,7 +447,7 @@
 
 .about-us__description {
     font-size: 12px;
-    line-height: 21px;
+    line-height: 22px;
     font-weight: 400;
     color: #767e9e;
     margin-top: 9px;
@@ -524,7 +525,7 @@
 
 .section-form__header {
     font-size: 30px;
-    line-height: 17px;
+    line-height: 18px;
     font-weight: 900;
     color: #f0d8d9;
     letter-spacing: -0.005em;
@@ -616,7 +617,7 @@
 
 .information__header {
     font-size: 18px;
-    line-height: 17px;
+    line-height: 18px;
     font-weight: 900;
     color: #f0d8d9;
     letter-spacing: -0.005em;
@@ -627,7 +628,7 @@
 .information__list,
 .information__list a{
     font-size: 12px;
-    line-height: 21px;
+    line-height: 22px;
     font-weight: 400;
     color: #f0d8d9;
     text-decoration: none;
