@@ -16,7 +16,16 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.sticky {
+    min-height: 95px;
+    background: linear-gradient(0deg, rgba(50,55,70,1) 6px, rgba(45,48,58,1) 6px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; 
+}
 .main-header a {
     text-decoration: none;
 }
